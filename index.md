@@ -5,13 +5,11 @@
 **Bundle ID:** net.playmine.findmylocation  
 **Platform:** iPhone (iOS)
 
-> ### Which app this describes
+> ### What this policy covers
 >
-> **This policy covers the iPhone app only.** Find My Location also exists on Android, and the two
-> are separate apps that answer the same questions by asking different people. The Android app is
-> covered by its own policy at
-> <https://avbr07.github.io/FindMyLocation-PrivacyPolicy/>, and the services listed there are
-> **not** the services this version uses.
+> **This policy covers the Find My Location app for iPhone.** The section
+> **The Complete List of Services This App Contacts** below states, in full, every service the app
+> reaches and exactly what each one receives.
 
 ## Overview
 
@@ -27,9 +25,7 @@ The App does **NOT** collect, store, or transmit any personal data to servers op
 not require an account, sign-in, or any personal details.
 
 🔑 **The iPhone app contains no analytics of any kind.** There is no usage counting, no tracking SDK,
-no advertising SDK, and no crash-reporting service. Nothing measures how you use the App. (The
-Android version counts anonymous app-open events; this version does not, and there is therefore no
-setting to turn off.)
+no advertising SDK, and no crash-reporting service. Nothing measures how you use the App.
 
 ## Location Data
 
@@ -123,10 +119,6 @@ audio, and no location text, is sent off the device for this feature.**
 | Apple — App Store ratings prompt | The occasional "rate this app" prompt | None (system-level) | https://www.apple.com/legal/privacy/ |
 
 **That is the entire list. There is no other outbound connection in the iPhone app.**
-
-In particular, this version **never contacts the OpenStreetMap tile servers, the Overpass API,
-Nominatim or the Wikidata Query Service.** Those services appear in the Android app's policy and are
-not part of this one.
 
 ## What Works With No Connection
 
