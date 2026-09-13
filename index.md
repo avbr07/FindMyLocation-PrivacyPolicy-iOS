@@ -1,6 +1,6 @@
 # Privacy Policy for Find My Location — iPhone
 
-**Last updated:** September 2, 2026  
+**Last updated:** September 12, 2026  
 **Developer:** PlayMine  
 **Bundle ID:** net.playmine.findmylocation  
 **Platform:** iPhone (iOS)
@@ -54,7 +54,16 @@ any time from the Location tab.
   and never shared beyond the services listed below.
 - Trip routes recorded in the background stay in the same on-device trip history described below and
   are never transmitted.
-- Background location stops when you switch the feature off.
+- **While — and only while — this is switched on, the App also asks iOS to tell it when you have
+  travelled a significant distance** (roughly half a kilometre). This is Apple's own “significant
+  location change” service, and it exists here for one reason: iOS can stop an app's location
+  updates, or shut the app down entirely, while you are parked — and without this the App could not
+  notice you had driven away, so the return half of a journey went unrecorded. The positions it
+  reports are far too coarse to record and are never written to your trip history; they are used
+  only to start the App's ordinary, accurate tracking again. Nothing is transmitted — the whole
+  exchange is between the App and iOS on your phone.
+- Background location stops when you switch the feature off, and the significant-change service is
+  torn down in the same breath.
 
 **Trip recording** is a separate switch, also off until you turn it on, reachable from Settings or
 the top of the Trips tab. It saves your walks and drives to the on-device Trips tab and never
