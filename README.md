@@ -1,6 +1,6 @@
 # Privacy Policy for Find My Location — iPhone
 
-**Last updated:** September 12, 2026  
+**Last updated:** September 13, 2026  
 **Developer:** PlayMine  
 **Bundle ID:** net.playmine.findmylocation  
 **Platform:** iPhone (iOS)
@@ -234,6 +234,13 @@ pick, at the moment you pick it.
   never has such information.
 - No personal data is ever transmitted to servers operated by us; we have no servers and no user
   database.
+
+## Respecting Other People's Privacy
+The App records the movements of the iPhone it is installed on, and keeps that record on that iPhone. It has no way to show one iPhone's location or trips to another, and nothing it records reaches us.
+
+Please use the App on your own iPhone — or, if you set it up on an iPhone that somebody else uses, make sure that person knows it is there and is happy for it to run. You are shown this reminder once when the App first opens, and it stays available in Settings and in the in-app Help guide.
+
+Laws about recording a person's movements differ from one country, and one state, to another. Complying with the law where you are is your responsibility as the person who installs and runs the App.
 
 ## Children's Privacy
 
