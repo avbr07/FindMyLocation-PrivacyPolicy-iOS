@@ -120,7 +120,7 @@ audio, and no location text, is sent off the device for this feature.**
 |---------|---------|-----------|---------------|
 | Apple — Core Location | Your position (GPS / Wi-Fi / cellular) | Handled by iOS on your device | https://www.apple.com/legal/privacy/ |
 | Apple — Maps, place search and geocoding | The map itself; nearby fuel, food and medical results; turning coordinates into a street address, and text you type into the Map search box into a point on the map | Lat/Lon coordinates, the search radius, and the text you type. Apple states that this is not tied to your Apple Account | https://www.apple.com/legal/privacy/ |
-| **On-device attractions list (Wikidata, CC0)** | Attractions and landmarks | **Nothing — the data ships inside the app and never leaves your device** | https://foundation.wikimedia.org/wiki/Policy:Privacy_policy |
+| **On-device attractions list** | Attractions and landmarks | **Nothing — the data ships inside the app and never leaves your device** | — |
 | **On-device place list (GeoNames, CC BY 4.0)** | Town/city/region/country name with no connection | **Nothing — ships inside the app** | https://www.geonames.org/ |
 | **On-device elevation grid** | Ground elevation for "flight height" | **Nothing — ships inside the app** | — |
 | OpenWeatherMap | Weather where you are | Lat/Lon coordinates, IP | https://openweather.co.uk/privacy-policy |
