@@ -1,6 +1,6 @@
 # Privacy Policy for Find My Location — iPhone
 
-**Last updated:** September 17, 2026  
+**Last updated:** September 27, 2026  
 **Developer:** PlayMine  
 **Bundle ID:** net.playmine.findmylocation  
 **Platform:** iPhone (iOS)
@@ -37,8 +37,10 @@ Coordinates leave your device only to answer a request you have caused, and only
 listed in **The complete list of services this app contacts** below. Nothing else is ever sent, and
 your coordinates are never used for advertising or profiling.
 
-**Working out the place name and the ground elevation happens entirely on your device**, from data
-shipped inside the App. Travelling with the App open sends nothing for either.
+**Ground elevation is worked out entirely on your device**, from data shipped inside the App, and
+sends nothing. **Place names are asked of Apple's geocoding service first** (listed below), which
+receives your coordinates. When there is no connection, or Apple leaves part of the name blank, the
+App fills it in from a list of towns and cities shipped inside the App, which sends nothing.
 
 ## Background Location
 
@@ -67,7 +69,9 @@ any time from the Location tab.
 
 **Trip recording** is a separate switch, also off until you turn it on, reachable from Settings or
 the top of the Trips tab. It saves your walks and drives to the on-device Trips tab and never
-announces or geocodes anything.
+announces anything. To label a trip with the towns it passes through — including while the screen
+is locked — it looks up place names in the same way as the rest of the App (see **Location Data**
+above). The recorded route itself is never transmitted.
 
 ## Motion & Fitness
 
@@ -83,8 +87,8 @@ disables only the step counter and the walk/drive distinction; everything else w
 
 Trips are recorded and kept **only on your iPhone**, and are never uploaded.
 
-- The App keeps your **7 most recent travel days**; older days are removed automatically.
-- You may bookmark up to **30 trips to keep**. Those are exempt from the automatic pruning and stay
+- The App keeps your **14 most recent travel days**; older days are removed automatically.
+- You may bookmark up to **100 trips to keep**. Those are exempt from the automatic pruning and stay
   until you delete them.
 - Nothing about a trip — the route, the place names, the times, the distance — is transmitted to us
   or to anyone else.
@@ -119,9 +123,9 @@ audio, and no location text, is sent off the device for this feature.**
 | Service | Purpose | Data Sent | Privacy Policy |
 |---------|---------|-----------|---------------|
 | Apple — Core Location | Your position (GPS / Wi-Fi / cellular) | Handled by iOS on your device | https://www.apple.com/legal/privacy/ |
-| Apple — Maps, place search and geocoding | The map itself; nearby fuel, food and medical results; turning coordinates into a street address, and text you type into the Map search box into a point on the map | Lat/Lon coordinates, the search radius, and the text you type. Apple states that this is not tied to your Apple Account | https://www.apple.com/legal/privacy/ |
+| Apple — Maps, place search and geocoding | The map itself; nearby fuel, food and medical results; turning coordinates into a street address and the place names shown on screen and in your trips, and text you type into the Map search box into a point on the map | Lat/Lon coordinates, the search radius, and the text you type. Apple states that this is not tied to your Apple Account | https://www.apple.com/legal/privacy/ |
 | **On-device attractions list** | Attractions and landmarks | **Nothing — the data ships inside the app and never leaves your device** | — |
-| **On-device place list (GeoNames, CC BY 4.0)** | Town/city/region/country name with no connection | **Nothing — ships inside the app** | https://www.geonames.org/ |
+| **On-device place list (GeoNames, CC BY 4.0)** | Town/city/region/country name when there is no connection, or when Apple leaves it blank | **Nothing — ships inside the app** | https://www.geonames.org/ |
 | **On-device elevation grid** | Ground elevation for "flight height" | **Nothing — ships inside the app** | — |
 | OpenWeatherMap | Weather where you are | Lat/Lon coordinates, IP | https://openweather.co.uk/privacy-policy |
 | Open-Meteo | Weather (fallback only) | Lat/Lon coordinates, IP | https://open-meteo.com/en/terms |
@@ -187,17 +191,17 @@ lives only on your device, with these retention periods:
 
 | Data | Where it is kept | How long |
 |------|------------------|----------|
-| Trip history (routes, place names, times) | App's private on-device container | Your **7 most recent travel days** |
-| Trips you chose to keep (bookmarked, max 30) | App's private on-device container | **Until you delete them** — exempt from the automatic pruning, never transmitted |
-| Step history | App's private on-device container | Until you delete the App |
+| Trip history (routes, place names, times) | App's private on-device container | Your **14 most recent travel days** |
+| Trips you chose to keep (bookmarked, max 100) | App's private on-device container | **Until you delete them** — exempt from the automatic pruning, never transmitted |
+| Step history | App's private on-device container | Your **30 most recent days** |
 | Backups, and trips you saved or shared | **Wherever you chose to put them** — not the App's container | **Until you delete them.** The App cannot reach them, and deleting the App does not remove them |
 | Current location, address, weather, speed, altitude, compass | Device memory only | Discarded when tracking stops or the App closes |
 | App preferences (units, voice settings, optional body weight) | App's private on-device container | Until you delete them or delete the App |
 
 The third-party services listed above receive coordinates transiently to answer each request; we do
 not control their retention, which is governed by their own privacy policies linked in the table
-above. Place names and ground elevation are worked out entirely on your device and involve no third
-party at all.
+above. Ground elevation is worked out entirely on your device and involves no third party. Place
+names are asked of Apple's geocoding service when there is a connection, as described above.
 
 ## Data Deletion
 
@@ -210,7 +214,7 @@ everything is on your device and under your control.
   a saved trip, or one you shared is wherever you put it — on your iPhone, in iCloud Drive, or on
   somebody else's device. The App has no way to reach it, and deleting the App will not remove it.
   Remember that anything already sent to somebody else cannot be taken back.
-- **Trip history** also prunes itself automatically: only your 7 most recent travel days are kept,
+- **Trip history** also prunes itself automatically: only your 14 most recent travel days are kept,
   apart from trips you bookmarked to keep. You can un-bookmark one at any time to hand it back to the
   automatic pruning.
 
@@ -240,7 +244,7 @@ pick, at the moment you pick it.
 ## Respecting Other People's Privacy
 The App records the movements of the iPhone it is installed on, and keeps that record on that iPhone. It has no way to show one iPhone's location or trips to another, and nothing it records reaches us.
 
-Please use the App on your own iPhone — or, if you set it up on an iPhone that somebody else uses, make sure that person knows it is there and is happy for it to run. You are shown this reminder once when the App first opens, and it stays available in Settings and in the in-app Help guide.
+Please use the App on your own iPhone — or, if you set it up on an iPhone that somebody else uses, make sure that person knows it is there and is happy for it to run. You are shown this reminder the first time you switch on trip recording, and it stays available in Settings and in the in-app Help guide.
 
 Laws about recording a person's movements differ from one country, and one state, to another. Complying with the law where you are is your responsibility as the person who installs and runs the App.
 
