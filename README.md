@@ -1,6 +1,6 @@
 # Privacy Policy for Find My Location — iPhone
 
-**Last updated:** September 27, 2026  
+**Last updated:** September 30, 2026  
 **Developer:** PlayMine  
 **Bundle ID:** net.playmine.findmylocation  
 **Platform:** iPhone (iOS)
@@ -124,7 +124,7 @@ audio, and no location text, is sent off the device for this feature.**
 |---------|---------|-----------|---------------|
 | Apple — Core Location | Your position (GPS / Wi-Fi / cellular) | Handled by iOS on your device | https://www.apple.com/legal/privacy/ |
 | Apple — Maps, place search and geocoding | The map itself; nearby fuel, food and medical results; turning coordinates into a street address and the place names shown on screen and in your trips, and text you type into the Map search box into a point on the map | Lat/Lon coordinates, the search radius, and the text you type. Apple states that this is not tied to your Apple Account | https://www.apple.com/legal/privacy/ |
-| **On-device attractions list** | Attractions and landmarks | **Nothing — the data ships inside the app and never leaves your device** | — |
+| **Attractions and landmarks** | Notable places to explore | **Nothing — no service is contacted, and nothing leaves your device** | — |
 | **On-device place list (GeoNames, CC BY 4.0)** | Town/city/region/country name when there is no connection, or when Apple leaves it blank | **Nothing — ships inside the app** | https://www.geonames.org/ |
 | **On-device elevation grid** | Ground elevation for "flight height" | **Nothing — ships inside the app** | — |
 | OpenWeatherMap | Weather where you are | Lat/Lon coordinates, IP | https://openweather.co.uk/privacy-policy |
@@ -136,10 +136,10 @@ audio, and no location text, is sent off the device for this feature.**
 ## What Works With No Connection
 
 Your position, speed, altitude, compass and step count all work with no data connection, because
-they come from your iPhone's own sensors. In addition, these ship **inside the App** and never
-involve a network request:
+they come from your iPhone's own sensors. Attractions and landmarks — over half a million notable
+places to explore — also work with no connection and never involve a network request. In
+addition, these ship **inside the App** and never involve a network request:
 
-- over half a million notable places, for attractions and landmarks;
 - the world's towns and cities, for naming where you are with no connection; and
 - the elevation grid behind "flight height".
 
