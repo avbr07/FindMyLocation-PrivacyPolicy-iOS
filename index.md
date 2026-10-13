@@ -1,6 +1,6 @@
 # Privacy Policy for Find My Location — iPhone
 
-**Last updated:** September 30, 2026  
+**Last updated:** October 13, 2026  
 **Developer:** PlayMine  
 **Bundle ID:** net.playmine.findmylocation  
 **Platform:** iPhone (iOS)
@@ -37,10 +37,10 @@ Coordinates leave your device only to answer a request you have caused, and only
 listed in **The complete list of services this app contacts** below. Nothing else is ever sent, and
 your coordinates are never used for advertising or profiling.
 
-**Ground elevation is worked out entirely on your device**, from data shipped inside the App, and
+**Ground elevation needs no request at all**, and
 sends nothing. **Place names are asked of Apple's geocoding service first** (listed below), which
 receives your coordinates. When there is no connection, or Apple leaves part of the name blank, the
-App fills it in from a list of towns and cities shipped inside the App, which sends nothing.
+App still fills in the town or city, and that sends nothing.
 
 ## Background Location
 
@@ -115,7 +115,7 @@ outside the App's control.
 
 ## Voice Announcements
 
-The App can read your current place name aloud using your iPhone's built-in speech synthesiser. **No
+The App can read your current place name aloud using your iPhone's own speech synthesiser. **No
 audio, and no location text, is sent off the device for this feature.**
 
 ## The Complete List of Services This App Contacts
@@ -125,8 +125,8 @@ audio, and no location text, is sent off the device for this feature.**
 | Apple — Core Location | Your position (GPS / Wi-Fi / cellular) | Handled by iOS on your device | https://www.apple.com/legal/privacy/ |
 | Apple — Maps, place search and geocoding | The map itself; nearby fuel, food and medical results; turning coordinates into a street address and the place names shown on screen and in your trips, and text you type into the Map search box into a point on the map | Lat/Lon coordinates, the search radius, and the text you type. Apple states that this is not tied to your Apple Account | https://www.apple.com/legal/privacy/ |
 | **Attractions and landmarks** | Notable places to explore | **Nothing — no service is contacted, and nothing leaves your device** | — |
-| **On-device place list (GeoNames, CC BY 4.0)** | Town/city/region/country name when there is no connection, or when Apple leaves it blank | **Nothing — ships inside the app** | https://www.geonames.org/ |
-| **On-device elevation grid** | Ground elevation for "flight height" | **Nothing — ships inside the app** | — |
+| **Town and city names (GeoNames, CC BY 4.0)** | Town/city/region/country name when there is no connection, or when Apple leaves it blank | **Nothing — no service is contacted** | https://www.geonames.org/ |
+| **Ground elevation** | Ground elevation for "flight height" | **Nothing — no service is contacted** | — |
 | OpenWeatherMap | Weather where you are | Lat/Lon coordinates, IP | https://openweather.co.uk/privacy-policy |
 | Open-Meteo | Weather (fallback only) | Lat/Lon coordinates, IP | https://open-meteo.com/en/terms |
 | Apple — App Store ratings prompt | The occasional "rate this app" prompt | None (system-level) | https://www.apple.com/legal/privacy/ |
@@ -137,11 +137,10 @@ audio, and no location text, is sent off the device for this feature.**
 
 Your position, speed, altitude, compass and step count all work with no data connection, because
 they come from your iPhone's own sensors. Attractions and landmarks — over half a million notable
-places to explore — also work with no connection and never involve a network request. In
-addition, these ship **inside the App** and never involve a network request:
+places to explore — also work with no connection and never involve a network request. So do:
 
-- the world's towns and cities, for naming where you are with no connection; and
-- the elevation grid behind "flight height".
+- naming the town or city you are in; and
+- the ground elevation behind "flight height".
 
 Looking up nearby places through Apple's search, and fetching weather, need a connection.
 
@@ -200,7 +199,7 @@ lives only on your device, with these retention periods:
 
 The third-party services listed above receive coordinates transiently to answer each request; we do
 not control their retention, which is governed by their own privacy policies linked in the table
-above. Ground elevation is worked out entirely on your device and involves no third party. Place
+above. Ground elevation involves no third party. Place
 names are asked of Apple's geocoding service when there is a connection, as described above.
 
 ## Data Deletion
