@@ -110,7 +110,7 @@ outside the App's control.
 - **Nothing leaves your phone until you choose a destination.** No backup or file is created or sent
   in the background, on a schedule, or without you asking for it.
 - **A copy you have made is not covered by the App's own deletion.** Deleting the App removes
-  everything inside it, but it cannot reach a file you saved elsewhere or a trip you already sent to
+  everything the App keeps, but it cannot reach a file you saved elsewhere or a trip you already sent to
   somebody. **Treat a backup file as you would a diary of where you have been.**
 
 ## Voice Announcements
