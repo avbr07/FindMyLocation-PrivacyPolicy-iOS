@@ -1,6 +1,6 @@
 # Privacy Policy for Find My Location — iPhone
 
-**Last updated:** October 13, 2026  
+**Last updated:** October 16, 2026  
 **Developer:** PlayMine  
 **Bundle ID:** net.playmine.findmylocation  
 **Platform:** iPhone (iOS)
@@ -123,7 +123,7 @@ audio, and no location text, is sent off the device for this feature.**
 | Service | Purpose | Data Sent | Privacy Policy |
 |---------|---------|-----------|---------------|
 | Apple — Core Location | Your position (GPS / Wi-Fi / cellular) | Handled by iOS on your device | https://www.apple.com/legal/privacy/ |
-| Apple — Maps, place search and geocoding | The map itself; nearby fuel, food and medical results; turning coordinates into a street address and the place names shown on screen and in your trips, and text you type into the Map search box into a point on the map | Lat/Lon coordinates, the search radius, and the text you type. Apple states that this is not tied to your Apple Account | https://www.apple.com/legal/privacy/ |
+| Apple — Maps, place search and geocoding | The map itself; nearby fuel, EV charging, food and medical results; turning coordinates into a street address and the place names shown on screen and in your trips, and text you type into the Map search box into a point on the map | Lat/Lon coordinates, the search radius, and the text you type. Apple states that this is not tied to your Apple Account | https://www.apple.com/legal/privacy/ |
 | **Attractions and landmarks** | Notable places to explore | **Nothing — no service is contacted, and nothing leaves your device** | — |
 | **Town and city names (GeoNames, CC BY 4.0)** | Town/city/region/country name when there is no connection, or when Apple leaves it blank | **Nothing — no service is contacted** | https://www.geonames.org/ |
 | **Ground elevation** | Ground elevation for "flight height" | **Nothing — no service is contacted** | — |
